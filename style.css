@@ -1,113 +1,104 @@
 body{
-  font-family:'Times New Roman', Times, serif
-    font-style:condensed;
-    background: -webkit-radial-gradient(center, ellipse cover,  brown 0%,#8d1788 50%,#472a62 100%); /* Chrome10+,Safari5.1+ */
+background-color: antiquewhite !important;  
+color: #0E0F19 !important;
 }
 
-.green:hover{
-  background:#03C9A9 !important;
-  color:#FFF;
-  border:3px solid #03C9A9;
-  -webkit-transition:0.4s;
-  -moz-transition:0.4s;
-  -o-transition:0.4s;
-  -ms-transition:0.4s;
-  transition:0.4s;
+.intro {
+  padding: 2em 0em;
+  text-align: center;
 }
 
-.red:hover{
-  background:#F62459;
-  color:#FFF;
-  border:3px solid #F62459;
-  -webkit-transition:0.4s;
-  -moz-transition:0.4s;
-  -o-transition:0.4s;
-  -ms-transition:0.4s;
-  transition:0.4s;
+.table-body, td {
+  padding: 1em;
+  border: 2px solid rgb(90, 69, 42) ;
+  background-color: rgb(90, 69, 42) ;
+  color: rgb(252, 250, 236);
 }
 
-.blue:hover{
-  background:#3498DB;
-  color:#FFF;
-  border:3px solid #3498DB;
-  -webkit-transition:0.4s;
-  -moz-transition:0.4s;
-  -o-transition:0.4s;
-  -ms-transition:0.4s;
-  transition:0.4s;
+.table-h {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 105%;
 }
 
-.purple:hover{
-  background:#663399;
-  color:#FFF;
-  border:3px solid #663399;
-  -webkit-transition:0.4s;
-  -moz-transition:0.4s;
-  -o-transition:0.4s;
-  -ms-transition:0.4s;
-  transition:0.4s;
+.button-add {
+  float: right;
+}
+
+.button-subtract {
+  float: left;
+}
+
+.button-subtract, .button-add, .button-p {
+  padding: 0.07em 0.4em;
+  border-radius: 7px;
+  margin: 2px;
+  background-color: rgb(233, 222, 199);
+  border:1.5px solid rgb(95, 74, 33);
+  font-style: italic;
+}
+
+.button-add:hover{
+  background: yellow;
+  color: #FFF;
+  border: 1.5px solid rgb(230, 235, 183);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.button-subtract:hover{
+  background: red;
+  color: #FFF;
+  border:1.5px solid rgb(235, 169, 169);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.button-p:hover{
+  background:rgb(1, 245, 42);
+  color: #FFF;
+  border: 1.5px solid rgb(183, 235, 188);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 button{
-    float:left;
-    list-style:none;
-    text-decoration:none;
-    font:700 10px monospace;
-    padding:0px 4px 0px 4px;
-    border:3px solid #999faf;
-    color:#999faf;
-    display:inline-block;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    margin-right:10px;
-    position:relative;
-    text-align: center;
-    align-self: center;
+  font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-right: 10px;
 }
 
-td
-{
-  text-align: center;
-}
-th
+td, th, tr,table, thead
 {
   text-align: center;
 }
 
-tr {
-  text-align: center;
+.cart {
+  padding: 1em;
+  border: 2px solid rgb(90, 69, 42)  !important;
+  background-color: rgb(90, 69, 42)  !important;
+  color: rgb(252, 250, 236) !important;
+  min-height: 20em; 
+  min-width: 29em; 
+  margin-top: 2em;
 }
 
-.table thead th
+.totcost
 {
-  text-align: center;
-}
-table {
-  text-align: center;
-}
-
-#totcost
-{
-  border-top: solid 2px;
+  border-top: solid 2px rgb(37, 24, 5);
   text-align: center;
   align-content: center;
 }
 
-#totalCost
-{
-  font: monospace;
-  color: #663399;
-  font-size: 1.3em;
+.c-table{
+  color: aliceblue;
 }
 
-.table tbody tr td
-{
-  padding-top: 1em;
-  margin-top: 2em;
+.t-cost{
+  font-size: 1.2em;
+  color: rgb(252, 250, 236) !important;
 }
 
-.noOfProducts
+.quantity
 {
-  font-size: 1.3em;
-  color: purple;
+  font-size: 1.8em;
+  color: rgb(252, 250, 236) !important;
 }
